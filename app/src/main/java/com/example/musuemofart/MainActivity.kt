@@ -16,6 +16,8 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -38,6 +40,8 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+val paintings = listOf<Paintings>()
 
 @Composable
 fun MainScreen(
@@ -87,7 +91,7 @@ fun ImageDescription(
     Text(
         text = "Art Name"
         )
-    Spacer(modifier = Modifier.height(4.dp))
+    Spacer(modifier.height(4.dp))
     Text(
         text = "Artist / (Year)"
     )
