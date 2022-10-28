@@ -1,4 +1,25 @@
 <resources>
     <string name="app_name">Musuem Of Art</string>
     <string name="art_picture">Picture of art</string>
+    <string name="tunji">Tunji Taylor-Lewis</string>
+    <string name="james">James Linde</string>
+    <string name="hodson">Hodson Harding</string>
+    <string name="jerome">Jerome Blake</string>
+    <string name="dey">Adeyemi Taylor-Lewis</string>
+    <string name="patrick">Patrick Lock</string>
+    <string name="nathan">Nathan George</string>
+    <string name="lea">Lea Urmaza</string>
+    <string name="benjamin">Benjamin Ayesu-Attah</string>
+    <string name="nicholas">Nicholas Ayin</string>
+    <string name="coquitlam">Coquitlam</string>
+    <string name="burnaby">Burnaby</string>
+    <string name="vancouver">Vancouver</string>
+    <string name="surrey">Surrey</string>
+    <string name="florida">Florida</string>
+    <string name="calgary">Calgary</string>
+    <string name="sask">Saskatoon</string>
+    <string name="pittmeadows">Pitt Meadows</string>
+    <string name="Next">Next</string>
+    <string name="Previous">Previous</string>
+
 </resources>
